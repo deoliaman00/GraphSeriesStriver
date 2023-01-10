@@ -34,6 +34,7 @@ public:
     }
     int numProvinces(vector<vector<int>> adj, int V)
     {
+        // Most important part is How to convert a adjacency matrix to Adjacency vector
         vector<int> adjA[V];
         for (int i = 0; i < V; i++)
         {
